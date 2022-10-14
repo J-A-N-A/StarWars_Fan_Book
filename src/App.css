@@ -1,0 +1,18 @@
+html ,body{
+  overflow: scroll;
+  overflow-x: hidden;
+  text-decoration: capatilize;
+}
+::-webkit-scrollbar {
+  width: 0; 
+  background: transparent;  
+}
+
+#card:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+   z-index: 1;
+   cursor: pointer;
+   filter: drop-shadow(0px 0px 10px #fff);
+ 
+}
